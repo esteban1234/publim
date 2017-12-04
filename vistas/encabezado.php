@@ -11,13 +11,14 @@
   	<META name="Description" content="Agencia de contratación de artistas y espectáculos para eventos de empresa y fiestas. Agencia de artistas y espectáculos."/>
 	 <META NAME="Keywords" CONTENT="Artistas, espectáculos, eventos, fiestas, espectáculos."/>
   	<link rel="stylesheet" href="css/bootstrap.css">
+  	<link rel="stylesheet" href="css/animate.css">
   	<link rel="stylesheet" href="css/iconos.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="css/responsivo.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<script src="js/general.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Khula|Montserrat|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Khula|Montserrat|Roboto|Courgette" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
 	
 </head>

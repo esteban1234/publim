@@ -11,6 +11,7 @@
   	<META name="Description" content="Agencia de contratación de artistas y espectáculos para eventos de empresa y fiestas. Agencia de artistas y espectáculos."/>
 	 <META NAME="Keywords" CONTENT="Artistas, espectáculos, eventos, fiestas, espectáculos."/>
   	<link rel="stylesheet" href="../css/bootstrap.css">
+  	<link rel="stylesheet" href="../css/animate.css">
   	<link rel="stylesheet" href="../css/iconos.min.css">
 	<link rel="stylesheet" href="../css/estilos.css">
 	<link rel="stylesheet" href="../css/responsivo.css">

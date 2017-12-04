@@ -1,114 +1,85 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
-	 <nav id="navtop">
-        <div class="container-fluid">
-      <!--header navbar top left -->
-              <ul class="nav navbar-nav" id="nav-left">
-                <li><a style="color: #b8b8b8 !important;" href="#">
-                  <i class="fa fa-user" aria-hidden="true"></i>EVENTOS</a>
-                </li>
-                <li><a style="color: #b8b8b8 !important;" href="#">
-                  <i class="fa fa-check-square-o" aria-hidden="true"></i>ESPECTACULOS</a>
-                </li>
-                <li><a style="color: #b8b8b8 !important;" href="#">
-                  <i class="fa fa-bullhorn" aria-hidden="true"></i>MARKETING</a>
-                </li>
-              </ul>
-      <!--header navbar top right -->
-              <ul class="nav navbar-nav nav-pills" id="nav-right">
-                <li>
-                  <a style="color: #b8b8b8 !important;" href="#">
-                        <i class="fa fa-users" aria-hidden="true"></i>SOCIAL</a>
-                </li>
-                <li>
-                  <a style="color: #b8b8b8 !important;" href="#">
-                        <i class="fa fa-suser-secret" aria-hidden="true"></i>ARTISTAS</a>
-                </li>
+	
+  <header>
+  <figure class="logo animated rollIn pull-left">
+    <img src="../img/publim.png" alt="PUBLIM" class="img-responsive">
+  </figure>
 
-                <li>
-                  <a style="color: #b8b8b8 !important;" href="#">
-                        <i class="fa fa-comments" aria-hidden="true"></i>ACTIVIDADES</a>
-                </li>
-              </ul>
+  <nav class="pull-right animated rollIn"> 
+    <ul>
+      <a class="selector" href="../index.php">INICIO</a>
+      <a class="selector" id="select" href="nosotros.php">NOSOTROS</a>
+      <a class="selector" href="servicios.php">SERVICIOS</a>
+      <a class="selector" href="contacto.php">CONTACTO</a>
+    </ul>
+  </nav>
+</header>
 
+<div class="section" style="padding: 5% 0%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="nos">Acerca De Nuestra Agencia</h1> <br>
+            <p>Somos una agencia de publicidad dedicada 100% a desarrollar estrategias de adquisición para nuestros clientes que buscan aumentar su base de prospectos y clientes y de esta manera incrementar ventas. Usamos cualquier plataforma para los negocios, donde son las personas las que generan conexiones y son las personas las que realizan los negocios. <br><br>
+
+            Nos enfocamos en brindar soluciones a personas y negocios que están en etapas de inicio o desarrollo de su empresa y que quieren escalar teniendo la publicidad como fuente de trafico. Al tiempo brindamos asesoría en soluciones gráficas, creación de marca, desarrollo de contenidos y redes sociales.</p>
           </div>
-        </nav>
-      <!--header navbar LOGO -->
-        <div class="text-center" id="logo">
-              <a href="#" ><img src="../img/peninsulak.png" class="img-responsive" alt="logo" /></a>
-        </div>
-      <!-- TOOGLE MAIN NAVIGATION -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-
-      <!--  MAIN NAVIGATION -->
-        <div class="collapse navbar-collapse" id="main-navigation">
-          <div class="container">
-
-          <ul class="nav nav-justified nav-pills">
-              <li><a href="../index.php">INICIO</a></li>
-              <li class="active"><a href="nosotros.php">NOSOTROS</a></li>
-              <li><a href="servicios.php">SERVICIOS</a></li>
-              <li><a href="contacto.php">CONTACTO</a></li>
-          </ul>
+          <div class="col-md-6">
+            <img src="../img/nosotros.jpg"
+            class="img-responsive">
           </div>
-        </div>
-        <br>
-
-        <div class=" section text-center tit">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="tit-inicial" style="color: #713160;">SOBRE GRUPO PENINSULA K</h1> <br>
-          <p class="lead">
-          GRUPO PENINSULA K tiene todas las herramientas necesarias para llevar a cabo, con éxito, cualquier tipo de evento. Su equipo profesional, coordina y gestiona cualquier demanda requerida por el cliente, que encontrará el espacio idóneo para su evento. Desde convenciones, congresos, seminarios, consejos de administración, eventos deportivos, eventos de responsabilidad social corporativa (RSC), rodajes, sesiones de fotos e incentivos de empresa, tanto de ámbito nacional como internacional.
-          </p>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="banner2">
+<div class="section" style="padding: 5% 0%; background-color: #E94E1B;">
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center" style="color: #fff;">Trabajamos unidos</h1>
+      <p class="text-center" style="color: #fff;">“Ser considerados los #1 por brindar servicio al cliente, soporte post-venta, asesoria en marketing, innovacion y plataformas de Internet entre la comunidad”</p>
+    </div>
+  </div>
 </div>
-
-<div class="section mvv">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h2 style="color: #713160;" class="text-sm-center">VISION</h2>
-          <p class="text-justify my-1">Garantizar el éxito de los eventos que organizan nuestros clientes, no sólo por una gran concurrencia de público, sino también logrando que los participantes queden plenamente satisfechos por haber asistido y la información y los conocimientos que han adquirido.</p>
+<div class="section" style="padding: 5% 0%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <figure class="iconos" style="text-align: center; color: #E94E1B;">
+              <i class="fa fa-star fa-5x" aria-hidden="true"></i>
+            </figure>
+            <h2 class="text-center">MISION</h2>
+            <p class="text-center">Satisfacer con calidad, rapidez todos los servicios que brindamos a nuestros clientes,y as mantenernos como la mejor opción en el mercado.</p>
+          </div>
+          <div class="col-md-4">
+            <figure class="iconos" style="text-align: center; color: #E94E1B;">
+              <i class="fa fa-eye fa-5x" aria-hidden="true"></i>
+            </figure>
+            <h2 class="text-center">VISION</h2>
+            <p class="text-center">Ser una empresa líder en publicidad, perifoneo y marketing  desarrollando estrategias de negocios que apoyen en todo momento su crecimiento.</p>
+          </div>
+          <div class="col-md-4">
+            <figure class="iconos" style="text-align: center; color: #E94E1B;">
+              <i class="fa fa-handshake-o fa-5x" aria-hidden="true"></i>
+            </figure>
+            <h2 class="text-center">VALORES</h2>
+            <p class="text-center">
+              Responsabilidad <br>
+      Respeto <br>
+      Puntualidad <br>
+      Honestidad <br>
+      Organización <br>
+      <!-- Honestidad <br> -->
+      Compromiso
+            </p>
+          </div>
         </div>
-        <div class="col-md-5">
-          <h2 style="color: #713160;" class="text-sm-center">MISION</h2>
-          <p class="text-justify my-1">Ser referentes en el mercado de la organización de eventos y la prestación de todo tipo de servicios para la adecuada realización de eventos empresariales, académicos e institucionales, garantizando siempre excelentes resultados para las compañías y organizaciones que los llevan a cabo. </p>
-        </div>
-        <div class="col-md-3">
-          <h2 style="color: #713160;" class="text-sm-center">VALORES</h2>
-          <p class="text-justify my-1">
-          	<ul class="fa-ul">
-			  <li><i class="fa-li fa fa-check-square"></i>Trabajo en equipo</li>
-			  <li><i class="fa-li fa fa-check-square"></i>Responsabilidad </li>
-			  <li><i class="fa-li fa fa-check-square"></i>Comunicación</li>
-			  <li><i class="fa-li fa fa-check-square"></i>Humanismo</li>
-			  <li><i class="fa-li fa fa-check-square"></i>Confianza</li>
-			  <li><i class="fa-li fa fa-check-square"></i>Respeto</li>
-			</ul>
-          </p>
-        </div>
+        <div class="btn-contactanos animated rollIn" style="text-align: center; margin-top: 5%; ">
+      <a class="btn btn-warning btn-outline btn-lg" href="contacto.php">CONTACTANOS</a>
+    </div>
       </div>
     </div>
-     <div style="text-align: center; margin-top: 5%; margin-bottom: 5%;">
-      <a class="btn btn-danger btn-outline btn-lg" href="contacto.php">CONTACTANOS</a>
-    </div>
-  </div>
-
 
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
