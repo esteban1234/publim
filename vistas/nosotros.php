@@ -3,11 +3,11 @@
 <body>
 	
   <header>
-  <figure class="logo animated rollIn pull-left">
+  <figure class="logo animated bounceInLeft pull-left">
     <img src="../img/publim.png" alt="PUBLIM" class="img-responsive">
   </figure>
 
-  <nav class="pull-right animated rollIn"> 
+  <nav class="pull-right animated bounceInLeft"> 
     <ul>
       <a class="selector" href="../index.php">INICIO</a>
       <a class="selector" id="select" href="nosotros.php">NOSOTROS</a>
@@ -75,7 +75,7 @@
             </p>
           </div>
         </div>
-        <div class="btn-contactanos animated rollIn" style="text-align: center; margin-top: 5%; ">
+        <div class="btn-contactanos animated bounceInLeft" style="text-align: center; margin-top: 5%; ">
       <a class="btn btn-warning btn-outline btn-lg" href="contacto.php">CONTACTANOS</a>
     </div>
       </div>
