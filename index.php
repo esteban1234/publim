@@ -18,7 +18,7 @@
   </nav>
 </header>
 <div class="banneri">
-  <p class="animated bounceInLeft">Haz lo que te haga feliz</p>
+  <p class="animated bounceInLeft">Tus metas son nuestras metas</p>
   <p class="p2 animated bounceInLeft">Publicidad creativa integral</p>
    <div class="btn-contactanos animated bounceInLeft" style="text-align: center; margin-top: 5%;">
       <a class="btn btn-danger btn-outline btn-lg" href="vistas/contacto.php">CONTACTANOS</a>
