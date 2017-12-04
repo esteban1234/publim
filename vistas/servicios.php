@@ -58,56 +58,60 @@
     <div class="section" style="padding: 5% 0%; background-color: #E94E1B;">
   <div class="container">
     <div class="row">
-      <div class="uno">
-        <figure class="imagen">
-          <img src="img/uno.png" class="img-responsive" alt="">
-        </figure>
+      <div class="serv1">
+        <div class="imagen1">
+          
+        </div>
         <p>MARKETING</p>
       </div>
-      <div class="uno">
-        <figure class="imagen">
-          <img src="img/dos.png" class="img-responsive" alt="">
-        </figure>
+      <div class="serv1">
+        <div class="imagen2">
+          
+        </div>
         <p>e-MARKETING</p>
       </div>
-      <div class="uno">
-        <figure class="imagen">
-          <img src="img/tres.png" class="img-responsive" alt="">
-        </figure>
+      <div class="serv1">
+        <div class="imagen3">
+          
+        </div>
         <p>CARTELERAS</p>
       </div>
-      <div class="uno">
-        <figure class="imagen">
-          <img src="img/cuatro.png" class="img-responsive" alt="">
-        </figure>
+      <div class="serv1">
+        <div class="imagen4">
+          
+        </div>
         <p>TOLDOS LUMINOSOS</p>
       </div>
     </div> <br><br>
     <div class="row">
-      <div class="uno">
-        <figure class="imagen">
-          <img src="img/cinco.png" class="img-responsive" alt="">
-        </figure>
+      <div class="serv1">
+        <div class="imagen5">
+          
+        </div>
         <p>ANUNCIOS ELECTRICOS</p>
       </div>
-      <div class="uno">
-        <figure class="imagen">
-          <img src="img/seis.png" class="img-responsive" alt="">
-        </figure>
+      <div class="serv1">
+        <div class="imagen6">
+          
+        </div>
         <p>BANNERS</p>
       </div>
-      <div class="uno">
-        <figure class="imagen">
-          <img src="img/siete.png" class="img-responsive" alt="">
-        </figure>
+      <div class="serv1">
+        <div class="imagen7">
+          
+        </div>
         <p>UNIPOLARES</p>
       </div>
-      <div class="uno">
-        <figure class="imagen">
-          <img src="img/ocho.png" class="img-responsive" alt="">
-        </figure>
+      <div class="serv1">
+        <div class="imagen8">
+          
+        </div>
         <p>DE NEON</p>
       </div>
+    </div>
+
+    <div class="btn-contactanos animated rollIn" style="text-align: center; margin-top: 5%;">
+      <a class="btn btn-danger btn-outline btn-lg" href="contacto.php">CONTACTANOS</a>
     </div>
   </div>
 </div>

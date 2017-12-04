@@ -126,6 +126,104 @@ footer p{
 .nos{
   margin-top: 15%;
 }
+.serv1{
+  width: 25%;
+  /*border: 2px red solid;*/
+  float: left;
+  /*height: 250px;*/
+  overflow: hidden;
+}
+.imagen1{
+  width: 100%;
+  position: relative;
+  height:250px;
+  background: url('../img/marketing.png') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.imagen2{
+  width: 100%;
+  position: relative;
+  height:250px;
+  background: url('../img/emarketing2.png') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.imagen3{
+  width: 100%;
+  position: relative;
+  height:250px;
+  background: url('../img/cartelera.png') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.imagen4{
+  width: 100%;
+  position: relative;
+  height:250px;
+  background: url('../img/toldos.png') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.imagen5{
+  width: 100%;
+  position: relative;
+  height:250px;
+  background: url('../img/anuncios.png') center;
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+}
+.imagen6{
+  width: 100%;
+  position: relative;
+  height:250px;
+  background: url('../img/flyers.png');
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+}
+.imagen7{
+  width: 100%;
+  position: relative;
+  height:250px;
+  background: url('../img/unipolar.png') center;
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+}
+.imagen8{
+  width: 100%;
+  position: relative;
+  height:250px;
+  background: url('../img/neon2.png') center;
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+}
+.serv1 p{
+  clear: both;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  margin-top: 3%;
+  font-size: 16px;
+}
+
+
 /*-------------------servicios---------------*/
 
 /*-----------------contacto-----------------*/
+.mapa{
+  width: 100%;
+}
+.mapa iframe{
+  width: 100%;
+}
+.fa-map-marker,
+.fa-phone,
+.fa-envelope,
+.fa-clock-o,
+.fa-user,
+.fa-pencil {
+   color: #E94E1B !important;
+}
+.subtitc{
+  font-size: 16px;
+}
