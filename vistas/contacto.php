@@ -15,6 +15,9 @@
       <a class="selector" id="select" href="contacto.php">CONTACTO</a>
     </ul>
   </nav>
+  <div class="op-menu">
+    <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+  </div>
 </header>
 
 <div class="mapa">
@@ -23,11 +26,11 @@
 
 
 <section class="container" style="padding: 5% 0%;">
-    <h2 class="text-center">FORMULARIO DE CONTACTO</h2> <br>
+    <h2 class="text-center h1-contacto">FORMULARIO DE CONTACTO</h2> <br>
     <p class="text-center subtitc">Como sea que quieras contactarnos estamos dispuestos a darte la solución digital que necesita tu empresa.</p> <br><br>
 
     <div class="row">
-        <div class="col-lg-5 ">
+        <div class="col-sm-6 col-lg-5 ">
             <div class="card border-primary rounded-0">
                 <div class="card-header ">
                     <div class=" text-center" style="padding: .5% 0%; background-color: #E94E1B; color: #fff;">
@@ -36,43 +39,45 @@
                     </div>
                 </div> <br>
                 <div class="card-body">
-
-                    <div class="form-group">
-                        <label>Nombre</label>
-                        <div class="input-group">
-                            <div class="input-group-addon bg-light"><i class="fa fa-user "></i></div>
-                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Escribe tu nombre completo">
+                    <form action="" onSubmit="return false">
+                        <div class="form-group">
+                            <label>Nombre</label>
+                            <div class="input-group">
+                                <div class="input-group-addon bg-light"><i class="fa fa-user "></i></div>
+                                <input type="text" class="form-control" id="txtNOMBRE" placeholder="Escribe tu nombre completo">
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label>Correo</label>
-                        <div class="input-group mb-2 ">
-                            <div class="input-group-addon bg-light"><i class="fa fa-envelope "></i></div>
-                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Escribe tu correo completo">
+                        <div class="form-group">
+                            <label>Correo</label>
+                            <div class="input-group mb-2 ">
+                                <div class="input-group-addon bg-light"><i class="fa fa-envelope "></i></div>
+                                <input type="text" class="form-control" id="txtCORREO" placeholder="Escribe tu correo completo">
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label>Teléfono</label>
-                        <div class="input-group mb-2 ">
-                            <div class="input-group-addon bg-light"><i class="fa fa-phone prefix "></i></div>
-                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Escribe tu teléfono completo">
+                        <div class="form-group">
+                            <label>Teléfono</label>
+                            <div class="input-group mb-2 ">
+                                <div class="input-group-addon bg-light"><i class="fa fa-phone prefix "></i></div>
+                                <input type="text" class="form-control" id="txtTELEFONO" placeholder="Escribe tu teléfono completo">
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label>Comentario</label>
-                        <div class="input-group mb-2 ">
-                            <div class="input-group-addon bg-light"><i class="fa fa-pencil "></i></div>
-                            <textarea class="form-control"></textarea>
+                        <div class="form-group">
+                            <label>Comentario</label>
+                            <div class="input-group mb-2 ">
+                                <div class="input-group-addon bg-light"><i class="fa fa-pencil "></i></div>
+                                <textarea class="form-control" id="txtCOMENTARIO"></textarea>
+                            </div>
                         </div>
-                    </div>
-                    <div class="text-center">
-                        <button class="btn btn-danger btn-lg btn-block">ENVIAR MENSAJE</button>
-                    </div>
+                        <div id="_AJAX_PRE_"></div>
+                        <div class="text-center">
+                            <button class="btn btn-danger btn-lg btn-block" onclick="sendCORREO()">ENVIAR MENSAJE</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-7">
+        <div class="col-sm-6 col-lg-7">
             <div class="">    
             </div>
             <div class="row text-center">
@@ -110,6 +115,7 @@
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/sendCORREO.js"></script>
+<script src="../js/menu.js"></script>
 
 </body>
 </html>

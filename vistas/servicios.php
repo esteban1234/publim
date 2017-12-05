@@ -15,38 +15,41 @@
       <a class="selector" href="contacto.php">CONTACTO</a>
     </ul>
   </nav>
+  <div class="op-menu">
+    <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+  </div>
 </header>
 
 <div class="section" style="padding: 5% 0%;">
       <div class="container">
-        <h1 class="text-center">Plataformas De Trabajo</h1>
+        <h1 class="text-center h1-pt">Plataformas De Trabajo</h1>
         <div class="row">
-          <div class="col-md-2 col-md-offset-1">
-            <figure>
+          <div class="col-xs-12 col-sm-4 col-md-2 col-md-offset-1">
+            <figure class="img-pt">
               <img src="../img/css3.png" class="img-responsive">
             </figure>
             <!-- <h2 class="text-center">CSS3</h2> -->
           </div>
-          <div class="col-md-2">
-            <figure>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <figure class="img-pt">
               <img src="../img/html.png" class="img-responsive">
             </figure>
             <!-- <h2 class="text-center">CSS3</h2> -->
           </div>
-          <div class="col-md-2">
-            <figure>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <figure class="img-pt">
               <img src="../img/google.png" class="img-responsive">
             </figure>
             <!-- <h2 class="text-center">CSS3</h2> -->
           </div>
-          <div class="col-md-2">
-            <figure>
+          <div class="col-xs-12 col-sm-4 col-md-2">
+            <figure class="img-pt">
               <img src="../img/drible.png" class="img-responsive">
             </figure>
             <!-- <h2 class="text-center">CSS3</h2> -->
           </div>
-           <div class="col-md-2">
-            <figure>
+           <div class="col-xs-12 col-sm-4  col-md-2">
+            <figure class="img-pt">
               <img src="../img/google+.png" class="img-responsive">
             </figure>
             <!-- <h2 class="text-center">CSS3</h2> -->
@@ -56,7 +59,7 @@
     </div>
 
     <div class="section" style="padding: 5% 0%; background-color: #E94E1B;">
-  <div class="container">
+  <div class="container delete-br">
     <div class="row">
       <div class="serv1">
         <div class="imagen1">
@@ -119,6 +122,6 @@
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.js"></script>
-<!-- <script src="../js/menu.js"></script> -->
+<script src="../js/menu.js"></script>
 </body>
 </html>

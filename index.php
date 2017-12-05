@@ -16,9 +16,12 @@
       <a class="selector" href="vistas/contacto.php">CONTACTO</a>
     </ul>
   </nav>
+  <div class="op-menu">
+    <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+  </div>
 </header>
 <div class="banneri">
-  <p class="animated bounceInLeft">Tus metas son nuestras metas</p>
+  <p class="animated bounceInLeft p-mm">Tus metas son nuestras metas</p>
   <p class="p2 animated bounceInLeft">Publicidad creativa integral</p>
    <div class="btn-contactanos animated bounceInLeft" style="text-align: center; margin-top: 5%;">
       <a class="btn btn-danger btn-outline btn-lg" href="vistas/contacto.php">CONTACTANOS</a>
@@ -26,8 +29,8 @@
 </div>
 
 <div class="section" style="padding: 5% 0%; background-color: #E94E1B;">
-  <div class="container">
-    <div class="row">
+  <div class="container delete-br">
+    <div class="row center-div">
       <div class="uno">
         <figure class="imagen">
           <img src="img/uno.png" class="img-responsive" alt="">
@@ -104,6 +107,6 @@
 <script src="js/jquery-2.2.3.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="https://use.fontawesome.com/f12e4a6b3c.js"></script>
-<!-- <script src="js/menu.js"></script> -->
+<script src="js/menu.js"></script>
 </body>
 </html>
